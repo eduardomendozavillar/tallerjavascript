@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+var num = parseInt(prompt("ingrese el numero de personas a pedir su peso" ))
+contmas=0;
+contmen=0;
+for(x=1;x<=num;x++){
+   var peso = parseInt(prompt("ingrese el peso en la posicion "+x))
+   if(peso<80){
+   contmen=contmen+1;
+   }
+    if(peso>80){
+    contmas=contmas+1;
+   }
+
+}
+document.write("las cantidad de personas con peso menor a 80Kg son "+contmen+" la cantidad de personas con peso mayor de 80kg "+contmas);
+</script>
+<body>
+    
+</body>
+</html>

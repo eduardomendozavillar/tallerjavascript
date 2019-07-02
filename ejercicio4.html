@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+contsu=0;
+contmu=1;
+for(x=1;x<=10;x++){
+    var n1 = parseInt(prompt("ingrese  numero "+" en la posicion "+x))
+    if (n1<0){
+     contmu=contmu*n1;
+    }else if(n1>0){
+        contsu=contsu+n1;
+    }
+      
+}
+document.write("la multiplicacion de los numeros negativos son "+contmu+" la suma de los numeros positivoses "+contsu)
+</script>
+<body>
+    
+</body>
+</html>
